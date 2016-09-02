@@ -5,7 +5,7 @@
  {
  	setlocale(LC_ALL, "RUS");
  	int k,hour,min,sec;
- 	printf ("Ââåäèòå k ñåêóíä \n");
+ 	printf ("Set k seconds \n");
  	scanf ("%d",&k);
  	hour=k/3600;
  	min=(k-h*3600)/60;
