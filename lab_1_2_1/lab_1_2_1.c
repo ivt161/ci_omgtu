@@ -5,13 +5,13 @@
  {
  	setlocale(LC_ALL, "RUS");
  	int k,hour,min,sec;
- 	printf ("Введите k секунд \n");
+ 	printf ("Г‚ГўГҐГ¤ГЁГІГҐ k Г±ГҐГЄГіГ­Г¤ \n");
  	scanf ("%d",&k);
  	hour=k/3600;
  	min=(k-h*3600)/60;
  	sec=k-h*3600-min*60;
- 	printf("Часы: %d \n",h);
- 	printf("Минуты: %d \n",m);
- 	printf("Секунды: %d \n",s);
+ 	printf("Hours: %d \n",h);
+ 	printf("Minutes: %d \n",m);
+ 	printf("Seconds: %d \n",s);
  	getche();
  }
