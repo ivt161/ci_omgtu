@@ -10,8 +10,8 @@
  	hour=k/3600;
  	min=(k-h*3600)/60;
  	sec=k-h*3600-min*60;
- 	printf("Hours: %d \n",h);
- 	printf("Minutes: %d \n",m);
- 	printf("Seconds: %d \n",s);
+ 	printf("Hours: %d \n",hour);
+ 	printf("Minutes: %d \n",min);
+ 	printf("Seconds: %d \n",sec);
  	getche();
  }
