@@ -15,4 +15,6 @@ void main()
 
     printf("S = %f, V = %f",s,v);
 
+    getch();
+
 }
